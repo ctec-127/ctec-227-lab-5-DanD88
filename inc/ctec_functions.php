@@ -7,10 +7,14 @@ function is_post_request() {
 	return $_SERVER['REQUEST_METHOD'] == 'POST';
 }
 
+
+
+
 // Function 2
 function is_get_request() {
 	return $_SERVER['REQUEST_METHOD'] == 'GET';
 }
+
 
 // Function 3
 function h($string="") {
